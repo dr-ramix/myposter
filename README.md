@@ -1,3 +1,37 @@
+# For myPoster: 
+I created this app on both React js and Vue js.
+Please consider that have learned React Js and have already experience with that. 
+Unfortunately, I have not work enough with Vue js, but i still tried to make a vue js of this app.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
