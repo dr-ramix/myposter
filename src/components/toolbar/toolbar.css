@@ -1,0 +1,27 @@
+.header .container nav .toolbar  {
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border-radius: 8px;
+}
+
+
+/* Mobile styles (phones, 767px and below) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Mobile styles (phones, 767px and below) */
+@media only screen and (max-width: 600px) {
+
+    .header .container nav .toolbar {
+        padding: 50px;
+        align-items: flex-start;
+        height: 25vh;
+        flex-direction: column;
+        padding: 0.2rem 2rem;
+    }
+}

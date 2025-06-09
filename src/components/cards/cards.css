@@ -1,0 +1,46 @@
+
+.cards-container {
+    display: grid;
+    gap: 1.5rem; /* Space between cards */
+    padding: 1rem; /* Padding inside the card container */
+    box-sizing: border-box; /* Include padding in element's total width/height */
+}
+
+/* Desktop layout (max-width 920px for content area) */
+@media (min-width: 769px) {
+    .cards-container {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* 3 columns generally */
+        /* minmax(280px, 1fr) means cards will be at least 280px wide, and then expand to fill space */
+        /* auto-fit will create as many columns as fit the minmax criteria */
+        justify-content: center; /* Center cards if there are fewer than full rows */
+    }
+}
+
+/* Tablet layout (e.g., 481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .cards-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* 2 columns for tablet */
+    }
+}
+
+/* Mobile layout (max-width 480px, min-width 320px) */
+@media (max-width: 480px) {
+    .cards-container {
+        grid-template-columns: 1fr; /* Single column for mobile */
+        padding: 0.5rem; /* Smaller padding on mobile */
+    }
+}
+
+/* Messages */
+.loading-message,
+.error-message,
+.no-results-message {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.error-message {
+  color: #d9534f; /* Red for errors */
+}

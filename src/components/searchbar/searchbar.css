@@ -1,0 +1,23 @@
+.searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 2;
+}
+
+.searchbar input {
+  border: none;
+  outline: none; /* remove blue border on focus */
+  max-height: 40px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 820px) {
+  .searchbar {
+      flex: 4;
+  }
+}
