@@ -1,34 +1,35 @@
-# For myPoster: 
-I created this app on both React js and Vue js.
-Please consider that have learned React Js and have already experience with that. 
-Unfortunately, I have not work enough with Vue js, but i still tried to make a vue js of this app.
+# myPoster – React.js & Vue.js Implementations
+
+As part of the technical task for this application, I developed the **myPoster** app using both **React.js** and **Vue.js**.
+
+---
+
+## ⚛️ React.js Version
+
+**Live Demo:** [https://myposter-react-js.netlify.app/](https://myposter-react-js.netlify.app/)
+
+I have solid experience with React and felt confident building this version. It reflects my understanding of component-based architecture, hooks, and modern frontend best practices.
+
+---
 
 
+## Vue.js Version
 
+**Live Demo:** [https://myposter-vue-js.netlify.app/](https://myposter-vue-js.netlify.app/)
 
+While I'm still early in my Vue.js journey, I challenged myself to rebuild the app using Vue to demonstrate adaptability and fast learning. To keep the development process consistent and straightforward, I did not follow Vue’s multi-word component naming convention and mirrored the same component structure and architecture used in the React version. This approach helped maintain clarity and alignment across both implementations.
 
+---
 
+**Portfolio:** [https://ramtinhosseini.org/](https://ramtinhosseini.org/)
 
+---
 
+## 👋 Final Notes
 
+Thank you for reviewing my work. I aimed to show both my competence in React and my willingness to learn and apply new frameworks like Vue. I'm excited by the opportunity to contribute and grow as part of your team.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Please don’t hesitate to reach out if you have any questions or feedback!
 
 
 
